@@ -2,25 +2,27 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./styles.css">
+    <script src="logic.js" defer></script>
 </head>
 <body>
     
     <table>
         <tr>
-            <td id="topLeftCorner">O</td>
-            <td>X</td>
-            <td id = "topRightCorner"></td>
+            <td className = "square" id="topLeftCorner"></td>
+            <td className = "square"></td>
+            <td className = "square" id = "topRightCorner"></td>
         </tr>
         <tr>
-            <td></td>
-            <td id = "middle">X</td>
-            <td>O</td>
+            <td className = "square"></td>
+            <td className = "square" id = "middle"></td>
+            <td className = "square"></td>
         </tr>
         <tr>
-            <td id = "bottomLeftCorner"></td>
-            <td>X</td>
-            <td id = "bottomRightCorner"></td>
+            <td className = "square" id = "bottomLeftCorner"></td>
+            <td className = "square"></td>
+            <td className = "square" id = "bottomRightCorner"></td>
         </tr>
     </table>
+    
 </body>
 </html>
